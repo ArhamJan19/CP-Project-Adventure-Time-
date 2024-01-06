@@ -62,7 +62,10 @@ int main()
     
 	while (1)
 	{
-       
+       		if(Quest_counter=0)
+		{
+			Story_line();
+		}
 		display_Character_Info(Character);
 		Main_menu();
 		Handle_main_choice(Character);
